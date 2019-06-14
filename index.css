@@ -68,7 +68,8 @@ h1, h2, h3, h4, h5 {
 body{
    background-color: black
 }
-h1{
+h1
+{
     color:white;
     display: flex;
     flex-direction: row;
@@ -81,8 +82,10 @@ h1{
     color: white;
     width: 100%;
     border: 1px solid black;
+    border-radius: 10%;
     display: flex;
     justify-content: space-around;
+    
 
 }
 .nav-div div{
@@ -100,11 +103,14 @@ h1{
     display:flex;
     justify-content: space-around;
     color: white;
+    padding-bottom: 10px;
 }
 .card{
     border: 1px solid white;
     width: 30%;
-    justify-content: inline-block; 
+    justify-content: inline-block;
+    border-radius: 10%;
+   
 
 }
 .card img{
@@ -112,5 +118,23 @@ h1{
     border: 1px solid white;
     width: 100%;
     box-sizing: border-box;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+#wrapperHeader{
 
+    background-image:url(imgs/tree\ sop.jpg);
+    display: flex;
+}
+
+#header{
+ 
+    display: flex;
+    justify-content: inherit;
+   
+}
+
+
+  
+    
 
