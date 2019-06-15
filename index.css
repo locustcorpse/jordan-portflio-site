@@ -104,9 +104,14 @@ h3{
 }
 .cards-class{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     color: white;
     padding-bottom: 10px;
+    
+}
+.bio{
+    border: 1px solid white;
+    justify-content: right
     
 }
 .card{
@@ -127,18 +132,25 @@ h3{
     display: flex;
     
 }
-
+.FooterContainer .FooterLinks{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+}
+.FooterContainer .FooterLinks a {
+    color: blue;
+    
+}
 #header{
     display: flex;
     justify-content: inherit;
  
 }
+
 .nav-div{
         -webkit-animation: bounce-top 0.9s both;
                 animation: bounce-top 0.9s both;
     }
-
-/* animation nav*/
 @-webkit-keyframes bounce-top {
   0% {
     -webkit-transform: translateY(-45px);
